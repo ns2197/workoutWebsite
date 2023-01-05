@@ -1,0 +1,33 @@
+.main-body {
+    display: block;
+}
+
+.first-div {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    margin-top: 100px;
+}
+.main-paragraph{
+    font-weight: bold;
+    font-size: 35px;
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.lat {
+    width: 40%;
+    height: 400px;
+    flex: 1;
+    margin-left: 50px;
+}
+
+.second-div {
+    background: rgb(175, 173, 173);
+    display: flex;
+    padding: 30px;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+}

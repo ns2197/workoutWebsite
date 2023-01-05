@@ -1,0 +1,38 @@
+.fullbody {
+    padding-top: 20px;
+    display: block;
+}
+
+.chest-focus, .back-focus, .legs-focus {
+    border: 5px solid black;
+    display: flex;
+    width: 75%;
+}
+img {
+    width: 50%;
+}
+.c-routine, .b-routine, .l-routine {
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding-left: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
