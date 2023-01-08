@@ -17,6 +17,7 @@ import FourDayRoutine from './components/Workouts/FourDayRoutine/FourDayRoutine'
 import './style/Header.css'
 import './style/Main.css'
 import './style/Workout.css'
+import './style/App.css'
 
 function App() {
   return (
