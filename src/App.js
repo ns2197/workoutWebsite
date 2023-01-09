@@ -6,6 +6,7 @@ import About from './components/Header/Navbar/About'
 import Home from './components/Home' 
 import Contact from './components/Header/Navbar/Contact'
 
+
 import WorkoutVideos from './components/Workouts/WorkoutVideos'
 import CustomWorkout from './components/Workouts/CustomWorkout'
 
@@ -28,6 +29,7 @@ function App() {
       <Route path = 'about' element = {<About />} />     
       <Route path = 'contact' element = {<Contact />} /> 
       <Route path = 'store' element = {<Store />} /> 
+
       <Route path = 'workout-videos' element = {<WorkoutVideos />} /> 
       <Route path = 'custom-workouts' element = {<CustomWorkout />} /> 
 
