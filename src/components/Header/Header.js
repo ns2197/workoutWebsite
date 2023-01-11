@@ -1,16 +1,9 @@
 import React, { useState } from 'react';
 import * as FaIcons from 'react-icons/fa';
-import * as AiIcons from 'react-icons/ai';
 import * as CgIcons from 'react-icons/cg';
 import {Link} from 'react-router-dom'
 
-
-import mw from '../../Image/mw.jpeg'
-
-
-
 function Header() {
-
 
     const [clicked, setClicked] = useState(false)
 
@@ -24,7 +17,6 @@ function Header() {
          <Link to = '/' >
             My <CgIcons.CgGym/> Workout
         </Link> 
-
         </h1>
 
         <ul className={clicked? 'nav-menu active' : 'nav-menu'}>

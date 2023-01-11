@@ -1,33 +1,115 @@
-.main-body {
-    display: block;
+.div1 {
+  color: white;
+  width: 95%;
+  margin-top: 150px;
+
+}
+.div1 img {
+  float: right;
+  border-radius: 50%;
+  margin-left: 50px;
+  border: 5px solid rgb(94, 43, 43);
+  overflow: hidden;
+  margin-top: 65px;
+  height: 350px;
+  width: 300px
+
 }
 
-.first-div {
-    display: flex;
-    width: 100%;
-    height: 400px;
-    background-color: aqua;
-    margin-top: 100px;
-}
-.main-paragraph{
-    font-weight: bold;
-    font-size: 35px;
-    width: 60%;
-    margin-left: 50px;
-    margin-top: 100px;
-}
-.lat {
-    width: 40%;
-    height: 400px;
-    flex: 1;
-    margin-left: 50px;
+.div1 h2 {
+  font-size: 30px;
+  width: 100%;
+  margin-left: 40px;
+  padding-left: 150px;
+  margin-top: 65px;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  --color-one: rgb(37, 185, 244);
+  --color-two: rgb(249, 169, 31);
+  font-size: clamp(3rem, 25vmin, 8rem);
+  background: linear-gradient(
+                65deg,
+                var(--color-one),
+                var(--color-two),
+                var(--color-one)
+              ) 0 0 / 100% 100%;
+              border-radius: 25px
+
 }
 
-.second-div {
-    background: rgb(175, 173, 173);
-    display: flex;
-    padding: 30px;
-    margin-top: 100px;
-    align-items: center;
-    text-align: center;
+.div2 {
+  margin-top: 100px;
+  align-items: center;
+  display: flex;
+  --color-one: rgb(3, 20, 27);
+  --color-two: rgba(31, 249, 242, 0.45);
+  background: linear-gradient(
+                65deg,
+                var(--color-one),
+                var(--color-two),
+                var(--color-one)
+              ) 0 0 / 100% 100%;
+              border-radius: 25px
+
+}
+.div2 .message {
+  font-size: 20px;
+  margin-left: 20px;
+  padding: 20px 0 20px 0;
+  margin-top: 20px;
+  line-height: 27px;
+  color: rgb(207, 204, 205);
+  float: right;
+  width: 40%;
+
+}
+
+.div2 img {
+  float: left;
+  width: 60%;
+  border-radius: 50%;
+  margin-left: 50px;
+  border: 2px solid rgb(132, 127, 127);
+  overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 350px;
+  width: 300px
+}
+.message h3 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.message p {
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 800;
+  font-style: oblique;
+  color:rgb(253, 255, 255);
+  font-size: 21px;
+  line-height: 30px;
+
+}
+
+.btn{
+  padding: 13px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  width: 50%;
+  background-color: rgb(183, 22, 22);
+  color: white;
+  font-size: 20px;
+  margin: 40px;
+  margin-left: 100px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: rgb(42, 50, 50);
+  background: rgb(239, 236, 236);
+  transition: 0.3s;
 }

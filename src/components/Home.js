@@ -7,6 +7,10 @@ function Home() {
     <div>
         <Header />
         <Main />
+
+
+
+
     </div>
   )
 }
