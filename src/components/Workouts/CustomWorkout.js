@@ -11,23 +11,33 @@ function CustomWorkout() {
   return (
     <div>
         <Header />
-
-        <div className='card'>
-        <div className='circle'></div>
-        <div className='content'>
-            <h2>3 Day Routine</h2>
-
-            <p>For Three Day Routine, We recommend doing a full
-                body workout and focusing on major compound movements 
-                as a beginner or for someone who is starting in the gym
-            </p>
-
-            <Link to = '/three-day-routine'>Explore Routine</Link>
+        <div className='card1'>
+          <img src = {FullBody} alt = "" />
+          <p>For Three Day Routine, We recommend doing a full
+            body workout and focusing on major compound movements 
+            as a beginner or for someone who is starting in the gym
+          </p>
         </div>
-        <img className = "fullbody" src = {FullBody} alt = "" />
+          <Link to='three-day-routine'>
+            <button className='btn'>Select 3 Day</button>
+          </Link>
+        <div className='card2'>
+          <img  src = {ULUL} alt = "" />
+          <p>
+            For a four day routine we recommend doing a 
+            Upper-Lower split where you should focus the first 
+            2 session on Strength Training and second 2 sessions on 
+            Hypertrophy Focused
+          </p>
+        </div>
+        <Link to='./four-day-routine'>
+            <button className='btn'>Select 4 Day</button>
+          </Link>
+
+
         
-       </div>
     </div>
+
 
        
 
