@@ -23,7 +23,7 @@ function Main() {
           that fits your schedule
           </p>
 
-          <Link to='./custom-workouts'>
+          <Link to='./custom-workout'>
             <button className='btn'>Explore</button>
           </Link>
 

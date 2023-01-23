@@ -5,12 +5,13 @@ import {Link} from 'react-router-dom'
 import ULUL from '../../Image/ULUL.jpeg'
 import FullBody from '../../Image/FullBody.jpeg'
 
+ 
 
-
-function CustomWorkout() {
+function Workout() {
   return (
     <div>
         <Header />
+
         <div className='card1'>
           <img src = {FullBody} alt = "" />
           <p>For Three Day Routine, We recommend doing a full
@@ -18,11 +19,15 @@ function CustomWorkout() {
             as a beginner or for someone who is starting in the gym
           </p>
         </div>
-          <Link to='three-day-routine'>
+        <Link to='/threeday'>
             <button className='btn'>Select 3 Day</button>
           </Link>
+        
+          
+
         <div className='card2'>
-          <img  src = {ULUL} alt = "" />
+
+        <img  src = {ULUL} alt = "" />
           <p>
             For a four day routine we recommend doing a 
             Upper-Lower split where you should focus the first 
@@ -30,7 +35,7 @@ function CustomWorkout() {
             Hypertrophy Focused
           </p>
         </div>
-        <Link to='./four-day-routine'>
+        <Link to='/fourday'>
             <button className='btn'>Select 4 Day</button>
           </Link>
 
@@ -47,4 +52,4 @@ function CustomWorkout() {
   )
 }
 
-export default CustomWorkout
+export default Workout

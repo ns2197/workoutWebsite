@@ -1,0 +1,279 @@
+.fullbody {
+    padding-top: 20px;
+    display: block;
+}
+
+.chest-focus, .back-focus, .legs-focus {
+    border: 5px solid black;
+    display: flex;
+    width: 75%;
+}
+img {
+    width: 50%;
+}
+.c-routine, .b-routine, .l-routine {
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding-left: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+.card1, .card2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-top:200px;
+    width: 45rem;
+    height: 20rem;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.card1 img {
+
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    width: 50%;
+}
+.card1 p, .card2 p {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 50%;
+    padding: 50px;
+    background-color: #020c1b;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+  }
+  .card1:hover img, .card2:hover img {
+    transform: translateX(-50%);
+  }
+  .card1:hover p, .card2:hover p {
+    right: 0;
+    opacity: 1;
+    background-color: #020c1b;
+    color: white;
+  }
+
+  .card2 img {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    width: 55%;
+    height: 300px;
+}
+ 
+.btn {
+    width: 30%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    ;
+}
+
+
+.btn:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+/* This is for the body on the main page */
+.div1 {
+    color: white;
+    width: 95%;
+    margin-top: 150px;
+  
+  }
+  .div1 img {
+    float: right;
+    border-radius: 50%;
+    margin-left: 50px;
+    border: 5px solid rgb(94, 43, 43);
+    overflow: hidden;
+    margin-top: 65px;
+    height: 350px;
+    width: 300px
+  
+  }
+  
+  .div1 h2 {
+    font-size: 30px;
+    width: 100%;
+    margin-left: 40px;
+    padding-left: 150px;
+    margin-top: 65px;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    --color-one: rgb(37, 185, 244);
+    --color-two: rgb(249, 169, 31);
+    font-size: clamp(3rem, 25vmin, 8rem);
+    background: linear-gradient(
+                  65deg,
+                  var(--color-one),
+                  var(--color-two),
+                  var(--color-one)
+                ) 0 0 / 100% 100%;
+                border-radius: 25px
+  
+  }
+  
+  .div2 {
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    --color-one: rgb(3, 20, 27);
+    --color-two: rgba(31, 249, 242, 0.45);
+    background: linear-gradient(
+                  65deg,
+                  var(--color-one),
+                  var(--color-two),
+                  var(--color-one)
+                ) 0 0 / 100% 100%;
+                border-radius: 25px
+  
+  }
+  .div2 .message {
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 20px 0 20px 0;
+    margin-top: 20px;
+    line-height: 27px;
+    color: rgb(207, 204, 205);
+    float: right;
+    width: 40%;
+  
+  }
+  
+  .div2 img {
+    float: left;
+    width: 60%;
+    border-radius: 50%;
+    margin-left: 50px;
+    border: 2px solid rgb(132, 127, 127);
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 350px;
+    width: 300px
+  }
+  .message h3 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .message p {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 800;
+    font-style: oblique;
+    color:rgb(253, 255, 255);
+    font-size: 21px;
+    line-height: 30px;
+  
+  }
+  
+  .btn{
+    padding: 13px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    width: 50%;
+    background-color: rgb(183, 22, 22);
+    color: white;
+    font-size: 20px;
+    margin: 40px;
+    margin-left: 100px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    color: rgb(42, 50, 50);
+    background: rgb(239, 236, 236);
+    transition: 0.3s;
+  }
+
+  /* This is for the table part*/
+
+
+.fullbody {
+
+    background-color: transparent;
+    border-style: solid;
+    color: grey;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+h2 {
+    color: white;    
+}
+table {
+    color: white;
+}
+
+.question {
+    font-weight: bold;
+    font-size: 35px;
+    background-color: aqua;
+}
+
+
+
+.left-table-chest {
+    width: 300px;
+    height: 100%;
+    flex: 1;
+    margin-left: 10px;
+
+}
+
+.left-table-legs {
+    width: 300px;
+    height: 100%;
+    flex: 1;
+    margin-left: 10px;
+}
+.left-table-back {
+    width: 300px;
+    height: 100%;
+    flex: 1;
+    margin-left: 10px;
+
+}
+
+
+.back {
+    width: 300px;
+    flex: 1;
+    height: 70%;
+}
+
+.chest {
+    width: 300px;
+    flex: 1;
+    height: 40%;
+
+}
+nav {
+    padding: 16px, 32px;
+}
+
+  
